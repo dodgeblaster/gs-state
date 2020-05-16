@@ -3,7 +3,7 @@
 ## Installation
 In order to add this package to your service, make sure you are logged in to your npm account. Inside your project folder run the following command:
 ```
-npm i gs-fs
+npm i gs-state
 ```
 
 ## API
@@ -27,7 +27,6 @@ Output:
 
 
 ## Usage
-This module will format a person retrieved from the Starwars API into card details .
 ```js
 const setupState = require('gj-state')
 const state = setupFs()
