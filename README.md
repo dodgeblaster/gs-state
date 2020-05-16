@@ -26,14 +26,14 @@ Output:
 ```
 
 
-## Usage
+## Usage 2
 ```js
 const setupState = require('gj-state')
 const state = setupFs()
 
 const main = async () => {
     await state.write(__dirname, {
-        data: 'something
+        data: 'something'
     })
 
     const data = await state.read(__dirname)
